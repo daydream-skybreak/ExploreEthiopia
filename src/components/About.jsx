@@ -16,11 +16,11 @@ const About = () => {
                 </div>
 
             </div>
-            <div className="w-[100%] min-h-[50%] flex flex-col justify-between *:*:text-center">
+            <div className="w-[100%] min-h-[50%] flex flex-col justify-between *:*:text-center ">
                 <div className="w-[100%] h-[45%]  flex justify-center">
                     <p className="w-[70%] text-center text-[22px] text-white">We specialize in providing unforgettable experiences in Ethiopia, from breathtaking landscapes to rich cultural heritage.</p>
                 </div>
-                <div className="w-[100%] h-[45%] flex items-start justify-evenly *:gap-3">
+                <div className="w-[100%] h-[45%] flex items-start justify-evenly *:gap-3 pb-10">
 
                     <div className="lg:w-[10%] w-[20%] *:w-[100%] flex flex-col items-center justify-between ">
                         <p className="pt-3 pb-3  bg-white text-[#075985] rounded-lg text-center text-[20px] font-bold">100+</p>
