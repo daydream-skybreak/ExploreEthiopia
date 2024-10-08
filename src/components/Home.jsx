@@ -48,7 +48,7 @@ const Description = ({ desc, image, side }) => {
         <div className={`lg:w-[50%] p-5 h-[100%] flex  justify-center items-center font-roboto text-[20px] text-white bg-[#075985] ${side == 'left' ? "rounded-r-xl" : "rounded-l-xl"}`}>
             <p>{desc}</p>
         </div>
-        <img className='h-[100%] rounded-xl lg:w-[450px] w-auto' src={image} alt="axum image"/>
+        <img className='h-[100%] rounded-xl lg:w-[450px] w-[100%]' src={image} alt="axum image"/>
     </div>
 }
 
